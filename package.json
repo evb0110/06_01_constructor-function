@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evb0110/06_01_constructor-function"
+  },
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "test": "jest",
