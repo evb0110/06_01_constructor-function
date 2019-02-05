@@ -1,4 +1,4 @@
-import Character from './character';
+import Character from '../character';
 
 describe('TESTING VALID INPUT', () => {
   test('testing a good Bowman', () => {
