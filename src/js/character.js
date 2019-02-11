@@ -36,7 +36,7 @@ function Character(name, type) {
   // Checking if name parameter is valid
   const nameInvalid = isNameInvalid(name);
   if (nameInvalid) throw new Error(nameInvalid);
-  
+
   // Checking if type parameter is valid
   if (!Object.keys(typesObj).includes(type)) throw new Error('wrong character type');
 
